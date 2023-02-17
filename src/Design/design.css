@@ -1,0 +1,170 @@
+.design {
+    display: flex;
+    margin-bottom: 30px;
+    padding-top: 20px;
+
+}
+
+.sidebar {
+    width:  20rem;
+    height: 90vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar > h1 {
+    text-align: center;
+    font-weight: 500;
+}
+
+.rightside {
+    width:  85vw;
+    height: 90vh;
+    background-color: rgb(230, 229, 245);
+    border-radius: 50px 0 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.card-1 {
+    width: 12rem;
+    height: 17rem;
+    box-shadow: 0px 0px 5px 1px rgb(204, 203, 203);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pro-1 {
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    border: 3px solid #8676FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pro-2 {
+    border-radius: 50%;
+    width: 5.7rem;
+    height: 5.7rem;
+    border: 3px solid #FF708B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pro-3 {
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    border: 3px solid #FFBA69;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card-1 > h3  {
+    font-size: smaller;
+    font-weight: 400;
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.card-1 > h4  {
+    font-size: medium;
+}
+
+.card-1 > h4 > svg {
+    color: green;
+}
+.card-1 > h4 > span {
+    color: green;
+
+}
+.card-1 > p  {
+    font-size: 10px;
+    color: grey;
+}
+
+.row {
+    width: 160px;
+    height: 21px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.one {
+    margin-top: 10px;
+}
+
+.row > p{
+    font-size: x-small;
+    text-align: left;
+}
+.row > span{
+    font-size: x-small;
+    text-align: left;
+    color: grey;
+}
+
+.card-2 {
+    width: 12rem;
+    height: 10rem;
+    box-shadow: 0px 0px 5px 1px rgb(204, 203, 203);
+    background-color: #8676FF;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hr {
+    
+    /* background-color: #3526a1; */
+    border: 0.5px solid #7264d3;
+    border-radius: 50%;
+    height: 2px;
+    width: 10rem;
+    margin: 4px 0;
+}
+
+.rightside-cercle {
+
+    box-shadow: 0px 0px 10px 1px rgb(143, 143, 143) ;
+    background: transparent;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cer-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: #6a5dfbb9;
+    color: #fff;
+    box-shadow: 0px 0px 10px 0px #9389ffb9;
+    
+}
+

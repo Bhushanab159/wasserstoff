@@ -1,0 +1,63 @@
+.side-state {
+
+    position: absolute;
+    left: 60px;
+    top: 270px;
+    
+    }
+    
+    .side-state > div {
+        display: flex;
+        cursor: pointer;
+        margin-bottom: 10px;
+    
+    }
+    
+    .arrowtrending {
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        width: 50px;
+        background-color: #8676FF;
+        border-radius: 10px;
+    }
+    
+    
+    .arrowtrending > svg {
+            color: #fff;
+    }
+    
+    .crown {
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        width: 50px;
+        background-color: #66C8FF;
+        border-radius: 10px;
+    
+    }
+    
+    .crown > svg{
+        color: #fff;
+    
+    }
+    
+    .chart {
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        width: 50px;
+        background-color: #FF9066;
+        border-radius: 10px; 
+    }
+    
+    .chart > svg {
+        color: #fff;
+        
+    }
